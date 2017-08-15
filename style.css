@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("http://i.imgur.com/B8r4dyt.jpg");
+    background-size: cover;
+}
+
+#container {
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+#jumbo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#jumbo h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4em;
+    margin-top: 3em;
+}
+
+#jumbo h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2em;
+}
+
+#menu h3 {
+    font-family: 'Cinzel', serif;
+}
+
+.cornsilk {
+    color: cornsilk;
+}
+
+#apps, #pizza, #dessert, #drinks {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* HIDE UL */
+#drinksL, #appsL, #dessertL, #pizzaL {
+    display: none;
+    background-color: cornsilk;
+    width: 60%;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 1.25em;
+    padding-top: 1em;
+}
+
+#appsP {
+    background-image: url("https://s19.postimg.org/o4eascgf7/fried-chicken-chicken-fried-crunchy-60616.jpg");
+    height: 25em;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid black 4px;
+}
+
+#pizzaP {
+    background-image: url("https://s19.postimg.org/lcv11qhwj/pizza-cheese-margarita-homemade-162918.jpg");
+    height: 25em;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid black 4px;
+}
+
+#dessertP {
+    background-image: url("https://s19.postimg.org/buva1ow83/cookies-baked-goods-frisch-chocolate-94278.jpg");
+    height: 25em;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid black 4px;
+}
+
+#drinksP {
+    background-image: url("https://s19.postimg.org/ulx7buqsj/summer-sunshine-alcohol-drink.jpg");
+    height: 25em;
+    background-size: cover;
+    border-radius: 50px;
+    border: solid black 4px;
+}
+
+.new {
+    color: darkred;
+}
+
+.item {
+    display: block;
+}
+
+.price {
+    display: block;
+}

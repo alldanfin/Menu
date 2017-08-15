@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donatello's Pizza Bello</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Quattrocento+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <div id="container" class="container-fluid">
+        <div id="jumbo" class="container-fluid">
+            <h1>Donatello's Pizza Bello</h1>
+            <h2>Menu</h2>
+        </div>
+        <div id="menu" class="container-fluid text-center">
+            <h5></h5>
+            <div id="apps" class="box" onclick="showList(appsL)">
+                <div id="appsP">
+                    <h3>Apps & Sides</h3>
+                </div>
+                <div id="appsL" class="container container-fluid text-center">
+                    <ul>
+                        <li>
+                            <span class="item">Breadsticks</span>
+                            <span class="price">$1.99</span>
+                        </li>
+                        <li>
+                            <span class="item">Wings</span>
+                            <span class="price">$4.99</span>
+                        </li>
+                        <li>
+                            <span class="item">Garlic Knots</span>
+                            <span class="price">$3.99</span>
+                        </li>
+                        <li>
+                            <span class="item">Cheesesticks</span>
+                            <span class="price">$3.99</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div id="pizza" class="box"  onclick="showList(pizzaL)">
+                <div id="pizzaP">
+                    <h3>Pizza Pies</h3>
+                </div>
+                <div id="pizzaL" class="container container-fluid text-center">
+                    <ul>
+                        <li>Margherita</li>
+                        <li>Pepperoni</li>
+                        <li>Sausage</li>
+                        <li>Meat Lover's</li>
+                        <li>Supreme</li>
+                        <li>Vegetarian</li>
+                        <li>Gluten Free</li>
+                        <li>Custom</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div id="dessert" class="box"  onclick="showList(dessertL)">
+                <div id="dessertP">
+                    <h3 class="cornsilk">Dessert</h3>
+                </div>
+                <div id="dessertL" class="container container-fluid text-center">
+                    <ul>
+                        <li>Apple Pizza Pie</li>
+                        <li>Brownie</li>
+                        <li>Chocolate Chip Cookies</li>
+                        <li><span class="new">New!</span> Double Chocolate Cookies</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <div id="drinks" class="box" onclick="showList(drinksL)">
+                <div id="drinksP">
+                    <h3 class="cornsilk">Refreshments</h3>
+                </div>
+                <div id="drinksL" class="container container-fluid text-center">
+                    <ul>
+                        <li>Tea</li>
+                        <li>Soda</li>
+                        <li>Water</li>
+                        <li>Beer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    
+    function showList(id) {
+        var list = id;
+        
+        if (list.style.display === "none") {
+            list.style.display = "block";
+        } else {
+            list.style.display = "none";
+        }
+    }
+        
+    </script>
+
+
+
+</body>
+</html>
