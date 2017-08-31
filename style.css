@@ -103,10 +103,16 @@ li {
     color: darkred;
 }
 
-.item {
-    display: block;
+.menu-items {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+    float: left;
 }
 
-.price {
-    display: block;
+.menu-prices {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-right: 1em;
 }
